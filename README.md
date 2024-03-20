@@ -16,6 +16,11 @@ Homoscedasticity and heteroscedasticity: refers to a condition in which the vari
 
 Feature redundancy: adding higly correlated features to the model independent variables.
 
+Data distribution: ignoring different data distributions and skewness of the distribution. Such features can be quickly corrected by applying log transformations.
+
+
+Ignoring feature importance:
+
 
 ## Data Modeling and measuring
 
@@ -38,6 +43,8 @@ Poor Communication: Communicating findings effectively to stakeholders is as imp
 ## Business an domain knowledge
 
 Ignoring Business Context: Data science projects should always align with the broader business objectives. Ignoring the business context can result in models that are technically sound but not useful or actionable for decision-making.
+
+Feature engineering without the business context.
 
 Lack of Domain Knowledge: Data scientists need a solid understanding of the domain they are working in to interpret results correctly and ask the right questions. Without domain knowledge, it's easy to misinterpret findings or overlook important variables.
 

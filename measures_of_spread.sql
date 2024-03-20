@@ -74,9 +74,8 @@ SELECT
 --- We can always compare or use the R/Python with: Example with Median
 
 /*
-SQLBits 2020
+SQLBits 2024
 Author: Tomaz Kastrun
-Date: 16.09.2020
 
 Description: Comparing database compatibility level 140 and 150 with Window function
 envoking window aggregate operator in SQL Server Execution Plans.

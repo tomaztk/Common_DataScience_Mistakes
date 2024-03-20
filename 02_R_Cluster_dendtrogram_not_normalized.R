@@ -1,6 +1,6 @@
 setwd("c:\\DataTK")
 #
-# SQLBits 2020
+# SQLBits 2024
 # Most Common Mistakes
 # 
 
@@ -9,7 +9,7 @@ setwd("c:\\DataTK")
 ###  Issue: Clustering
 ###
 ########################################
-setwd("C:\\DataTK")
+setwd("/Users/TomazKastrun/Documents/02-Github/SQLBits2024")
 set.seed(29081978)
 
 weight_kg  <- c(60, 62, 64, 63, 63,62,60,66)

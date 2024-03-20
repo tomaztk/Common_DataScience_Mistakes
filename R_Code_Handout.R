@@ -1,8 +1,6 @@
-setwd("c:\\DataTK")
-#
-# SQLBits 2024
-# Most Common Mistakes
-# 
+## ## ## ## ##
+## SQLBits 2024
+## Most Common Mistakes
 
 #############################
 # 1. General Statistics
@@ -173,19 +171,12 @@ car::outlierTest(mod)
 
 
 
-setwd("c:\\DataTK")
-#
-# Zagreb 2019
-# SQLSat 832
-# Most Common Mistakes
-# 
-
 ########################################
 ### 
 ###  Issue: Clustering
 ###
 ########################################
-setwd("C:\\DataTK")
+
 set.seed(29081978)
 
 weight_kg  <- c(60, 62, 64, 63, 63,62,60,66)
