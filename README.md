@@ -7,8 +7,14 @@ Ignoring Data Quality: Poor data quality can severely impact the results of any 
 
 ## Data Exploring
 
-    Not Exploring the Data: Failing to thoroughly explore and understand the data before building models can lead to missed opportunities and suboptimal performance. Exploratory data analysis (EDA) helps identify patterns, relationships, and potential issues in the data.
+Not Exploring the Data: Failing to thoroughly explore and understand the data before building models can lead to missed opportunities and suboptimal performance. Exploratory data analysis (EDA) helps identify patterns, relationships, and potential issues in the data.
 
+
+## Feature engineering
+
+Homoscedasticity and heteroscedasticity: refers to a condition in which the variance of the residual, or error term, in a regression model is constant. 
+
+Feature redundancy: adding higly correlated features to the model independent variables.
 
 
 ## Data Modeling and measuring

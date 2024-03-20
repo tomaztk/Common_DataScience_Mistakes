@@ -1,6 +1,6 @@
 setwd("c:\\DataTK")
 #
-# SQLBits 2020
+# SQLBits 2024
 # 
 # Most Common Mistakes
 # 

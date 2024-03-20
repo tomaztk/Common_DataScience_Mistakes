@@ -1,7 +1,6 @@
 setwd("c:\\DataTK")
 #
-# Zagreb 2019
-# SQLSat 832
+# SQLBits 2024
 # Most Common Mistakes
 # 
 
