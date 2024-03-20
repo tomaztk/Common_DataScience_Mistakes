@@ -1,2 +1,2 @@
-# Common_DataScience_Mistakes
+# Common Data Science Mistakes
 Common Mistakes Data Sciencists do
