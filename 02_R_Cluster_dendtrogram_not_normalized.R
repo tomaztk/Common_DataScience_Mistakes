@@ -1,4 +1,6 @@
-setwd("c:\\DataTK")
+cat("\014")
+rm(list = ls())
+setwd("/Users/tomazkastrun/Documents/06-SQL/03 - 2024/01 - SQLBits (March 2024)/01 - Common Data Science Mistakes")
 #
 # SQLBits 2024
 # Most Common Mistakes
@@ -9,7 +11,7 @@ setwd("c:\\DataTK")
 ###  Issue: Clustering
 ###
 ########################################
-setwd("/Users/TomazKastrun/Documents/02-Github/SQLBits2024")
+
 set.seed(29081978)
 
 weight_kg  <- c(60, 62, 64, 63, 63,62,60,66)

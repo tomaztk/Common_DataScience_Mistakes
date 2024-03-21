@@ -1,9 +1,9 @@
-setwd("c:\\DataTK")
-#
+cat("\014")
+rm(list = ls())
+setwd("/Users/tomazkastrun/Documents/06-SQL/03 - 2024/01 - SQLBits (March 2024)/01 - Common Data Science Mistakes")
+
 # SQLBits 2024
-# 
 # Most Common Mistakes
-# 
 
 #######################################################
 ### 
@@ -43,3 +43,7 @@ for (degree in degree_of_poly) {
 
 
 ggplot(df_result[degree%in%degree_to_plot],aes(x=Wind))+geom_point(aes(y=Ozone_real))+geom_line(aes(color=degree,y=Ozone_fitted))
+
+
+#check the results with degree of poly funct and comparison ozon_real vs. ozon_fitted
+df_result

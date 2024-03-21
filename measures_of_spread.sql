@@ -1,5 +1,5 @@
 /*
-Demo #1 SQLBits 2020
+Demo #1 SQLBits 2024
 Tomaz Kastrun
 */
 

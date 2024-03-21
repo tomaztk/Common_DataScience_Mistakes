@@ -34,5 +34,5 @@ cv_overfit <- train(y ~ poly(x, 10), data = data, method = "lm", trControl = tra
 cv_simple <- train(y ~ x, data = data, method = "lm", trControl = trainControl(method = "cv"))
 
 # Print cross-validation results
-print(cv_overfit)
-print(cv_simple)
+print(cv_overfit$results)
+print(cv_simple$results)

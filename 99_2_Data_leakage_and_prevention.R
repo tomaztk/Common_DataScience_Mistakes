@@ -5,7 +5,6 @@ setwd("/Users/tomazkastrun/Documents/Tomaztk_github/Common_datascience_mistakes"
 
 # Example: Data leakage and prevention
 
-# Simulate data for a time-series prediction problem
 set.seed(123)
 date <- seq(as.Date("2020-01-01"), by = "month", length.out = 24)
 target <- sin(2*pi*seq(1, 24, by = 1)/12) + rnorm(24, sd = 0.2)
@@ -28,14 +27,15 @@ test_data$predicted_leak <- predict(model_leak, newdata = test_data)
 
 # Calculate the performance metrics
 rmse_leak <- sqrt(mean((test_data$target - test_data$predicted_leak)^2))
-cat("RMSE with data leakage:", rmse_leak, "\n")
+
 
 # Fit a model without using future_variable (preventing data leakage)
 model_no_leak <- lm(target ~ date, data = train_data)
 
 # Predict on the testing set
 test_data$predicted_no_leak <- predict(model_no_leak, newdata = test_data)
-
-# Calculate the performance metrics
 rmse_no_leak <- sqrt(mean((test_data$target - test_data$predicted_no_leak)^2))
-cat("RMSE without data leakage:", rmse_no_leak, "\n")
+
+# Results
+cat("RMSE without data leakage:", rmse_leak, "\n")
+cat("RMSE with data leakage:", rmse_no_leak, "\n")
