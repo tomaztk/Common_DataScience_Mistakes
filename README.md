@@ -16,10 +16,12 @@ Homoscedasticity and heteroscedasticity: refers to a condition in which the vari
 
 Feature redundancy: adding higly correlated features to the model independent variables.
 
+Handling Multicollinearity: L2 regularization can help mitigate multicollinearity issues by shrinking correlated features towards each other. This can improve the numerical stability of the model and the interpretability of the coefficients.
+
 Data distribution: ignoring different data distributions and skewness of the distribution. Such features can be quickly corrected by applying log transformations.
 
 
-Ignoring feature importance:
+Ignoring feature importance
 
 
 ## Data Modeling and measuring
